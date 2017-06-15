@@ -28,7 +28,7 @@
     
      <changeSet id="3" author="pet">
         <addColumn tableName="person">
-            <column name="username" type="varchar(8)"/>
+            <column name="username" type="varchar(7)"/>
         </addColumn>
     </changeSet>
 
