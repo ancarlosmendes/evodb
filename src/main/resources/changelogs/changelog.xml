@@ -28,19 +28,6 @@
         <addColumn tableName="person">
             <column name="username" type="varchar(10)"/>
         </addColumn>
-    </changeSet>
-
-    <changeSet id="4" author="vox">
-        <addColumn tableName="person">
-            <column name="email" type="varchar(30)"/>
-        </addColumn>
-    </changeSet>
-    
-        <changeSet id="5" author="vox">
-        <addColumn tableName="person">
-            <column name="phone" type="varchar(20)"/>
-        </addColumn>
-    </changeSet>
-    
+    </changeSet>    
 
 </databaseChangeLog>
