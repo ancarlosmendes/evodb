@@ -36,7 +36,7 @@
         </addColumn>
     </changeSet>
     
-        <changeSet id="4" author="vox">
+        <changeSet id="5" author="vox">
         <addColumn tableName="person">
             <column name="phone" type="varchar(20)"/>
         </addColumn>
