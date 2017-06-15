@@ -30,4 +30,10 @@
         </addColumn>
     </changeSet>
 
+    <changeSet id="4" author="vox">
+        <addColumn tableName="person">
+            <column name="email" type="varchar(30)"/>
+        </addColumn>
+    </changeSet>
+
 </databaseChangeLog>
