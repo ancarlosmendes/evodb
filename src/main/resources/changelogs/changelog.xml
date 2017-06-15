@@ -16,7 +16,7 @@
         </createTable>
     </changeSet>
     
-    <changeSet id="2" author="tom">
+    <changeSet id="2" author="bob">
         <createTable tableName="person">
             <column name="id" type="int">
                 <constraints primaryKey="true" nullable="false"/>
@@ -28,6 +28,12 @@
         <addColumn tableName="person">
             <column name="username" type="varchar(10)"/>
         </addColumn>
-    </changeSet>    
+    </changeSet>  
+    
+     <changeSet id="4" author="erika">
+        <addColumn tableName="person">
+            <column name="email" type="varchar(30)"/>
+        </addColumn>
+    </changeSet>          
 
 </databaseChangeLog>
